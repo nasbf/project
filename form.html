@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"WDD 131 - Project Form - Alexandra Suarez".</title>
+    <meta name="author" content="Alexandra Suárez">
+    <meta name="description" content="Final project applying forms">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Moderustic:wght@300..800&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/form-large.css">
+    <script src="script.js/form.js" defer></script>
+
+</head>
+
+<body>
+    <div id="formulary">
+        <header>
+            <h2>Fill out the following information to obtain your quote.</h2>
+        </header>
+
+        <main>
+            <form onsubmit="sendInfo(event)" class="reviewForm">
+                <fieldset>
+                    <!-- <label>Name *</label>
+                <input id="userName" name="name" required>
+                <label>Phone *</label>
+                <input id="userPhone" phone="phone" required>
+                <label>Mail *</label>
+                <input id="userMail" mail="mail" required>
+                <label>Event Date *</label>
+                <input type="number" id="eventDate" name="date" required> -->
+                    <label> Number of Gests*</label>
+                    <select type="number" id="pax" name="gests" required>
+                        <option value=" " disabled selected>Choose an option </option>
+                        <option value="50">50</option>
+                        <option value="80">80</option>
+                        <option value="100">100 </option>
+                        <option value="200">200 </option>
+                    </select>
+                    <button type="submit">My Budget</button>
+                </fieldset>
+
+
+        </main>
+    </div>
+    <div id="result">
+        <p><span class="label">Congratulations is your </span><span class="visits"></span><br><br>
+        <h1 id="title"></h1>
+        <ul>
+            <li>Menu and cake</li>
+            <li>Bar service</li>
+            <li>Chapel decoration</li>
+            <li>Salon decoration</li>
+            <li>Sound</li>
+        </ul>
+        <h3>COURTESY</h3>
+        <ul>
+            <li>Welcome station</li>
+            <li>Bride's bouquet</li>
+        </ul>
+        <fieldset>
+            <div class="subtotal">
+                <label>Subtotal </label>
+                <input id="valor">
+                <label id="value"></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="state">
+                <label>Country State </label>
+                <input id="valorstate" value="3800000">
+                <label id=valueState></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="state">
+                <label>TOTAL </label>
+                <input id="totalevent">
+                <label id=valueTotal></label>
+            </div>
+        </fieldset>
+    </div>
+
+    <footer>
+        <p>Cel: 311 466 0933</p>
+        <p>mail: gourmet_real@hotmail.com</p>
+    </footer>
+</body>
+
+</html>

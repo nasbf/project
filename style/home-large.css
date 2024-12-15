@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+
+    #hero h1 {
+
+        margin-left: 750px;
+        top: 45%;
+        font-size: 2rem;
+
+
+    }
+
+    #hero button {
+        top: 70%;
+        margin-left: 750px;
+
+    }
+    
+
+    
+    
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+    }
+}
