@@ -14,6 +14,7 @@ h1 {
     font-size: 1.5em;
     font-weight: 200;
     color: #fffdf7;
+
 }
 
 h3 {
@@ -24,10 +25,22 @@ h3 {
 }
 
 p {
+
+    text-align: center;
     font-family: "moderustic";
-    font-size: 1.2em;
+    font-size: 1.3em;
+    color: #352525;
+
+}
+
+.text {
+    font-family: "moderustic";
+    font-size: 1.1em;
     text-align: center;
     padding: 20px 30px;
+    color: #352525;
+
+
 
 
 }
@@ -63,27 +76,26 @@ nav a {
     color: #352525;
     font-size: 1.1em;
     text-decoration: none;
-    padding: 40px;
+    padding: 30px;
+    margin: 0px;
+
 }
 
 nav {
     display: none;
     text-decoration: none;
     position: absolute;
-    top: 90px;
+    top: 75px;
     right: 20px;
     background-color: #ffeca1;
     list-style-type: none;
-    padding: 25px;
-
-
-
+    padding: 10px;
 }
 
 nav a:hover {
-    background-color: #ffe88d;
+    background-color: #35252513;
     border-radius: 4px;
-    padding: 7px;
+
 }
 
 #menu::before {
@@ -91,13 +103,15 @@ nav a:hover {
     font-size: 2em;
     color: #352525;
     position: absolute;
-    z-index: 1;
-    right: 20px;
+    z-index: 2;
+    right: 5px;
+
 }
 
 .show {
     display: flex;
     flex-direction: column;
+
 }
 
 #menu.show::before {
@@ -105,23 +119,28 @@ nav a:hover {
     font-family: "arial";
     position: absolute;
 
+
 }
 
 
 #hero {
+
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 90%;
+
+
 
 
 }
 
+
 #hero h1 {
     position: absolute;
-    top: 28%;
+    top: 30%;
     line-height: 1.3;
 
 }
@@ -129,8 +148,20 @@ nav a:hover {
 #hero button {
     position: absolute;
     top: 105%;
+    left: 110px;
+    font-size: 1.2em;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0.1px solid #352525;
+    box-shadow: 3px 3px 10px #fce99e;
+    background-color: #352525b9;
+    color: #ffffff;
+    font-family: "merienda";
+
+
 
 }
+
 
 #firstimagen {
     display: block;
@@ -141,7 +172,8 @@ nav a:hover {
     box-shadow: 0 0px 10px #352525;
 
 }
-#firstimagen img{
+
+#firstimagen img {
     display: block;
     margin: auto;
     width: 98%;
@@ -152,7 +184,8 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    margin-bottom: 10px;
+    justify-items: center;
+    margin-bottom: 10px auto;
 
 
 
@@ -166,26 +199,30 @@ nav a:hover {
     width: 100%;
     padding: 8px;
     box-shadow: 0 0px 10px #352525;
+    
 
 
 }
 
 .gallery figcaption {
+    
     font-size: 0.8rem;
 }
 
 footer {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #352525;
-    font-size: 1rem;
-    color: #ffeca1;
+    font-family: "moderustic";
+    font-size: 0.9rem;
     text-align: center;
-
-
-
+    height: 200px;
+    padding-top: 60px;
 
 }
 
+#footertext {
+    color: #ffeca1;
+}

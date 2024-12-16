@@ -1,0 +1,21 @@
+@media only screen and (min-width: 500px) {
+
+    nav {
+        display: flex;
+        position: static;
+        margin-right: 300px;
+        background-color: white;
+
+    }
+
+    nav a:hover {
+        background-color: white;
+        border-bottom: 1.3px solid #fed224;
+
+    }
+
+    #menu {
+        display: none;
+
+    }
+}

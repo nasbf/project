@@ -1,3 +1,12 @@
+const menu = document.querySelector("#menu")
+const hambutton = document.querySelector('nav');
+
+menu.addEventListener('click', () => {
+    menu.classList.toggle('show');
+    hambutton.classList.toggle('show');
+});
+
+
 function calculateBudget() {
     const numGests = parseInt(document.getElementById("pax").value, 10);
     const valorstate = parseInt(document.getElementById("valorstate").value, 10);

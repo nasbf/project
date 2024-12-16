@@ -7,6 +7,10 @@ menu.addEventListener('click', () => {
     hambutton.classList.toggle('show');
 });
 
+
+
+
+
 const photos = [
     {
         id: "pozo claro",
@@ -87,20 +91,4 @@ const galleryTotal = document.getElementById("gallery");
 galleryTotal.addEventListener(`click`, () => {
     renderitems(photos);
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
