@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #fffef9;
     color: #352525;
+    font-family: "moderustic";
 }
 
 header {
@@ -77,12 +78,80 @@ nav a:hover {
 
 }
 
+h2 {
+    font-family: "merienda";
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fed22438;
+    width: 80%;
+    margin: auto;
+    border: none;
+
+}
+
+.camp label {
+    font-size: 20px;
+    color: #352525 margin-bottom: 8px;
+}
+
+.camp input[type="text"],
+.camp input[type="number"] {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #352525;
+    font-family: "merienda";
+    font-size: 1.2rem;
+    box-shadow: 1px 2px 3px #352525;
+
+}
+
+select {
+    height: 40px;
+}
+
+button {
+    background-color: #ffffff2d;
+    width: 50%;
+    height: 35px;
+    margin: auto;
+    font-size: 1.2em;
+    color: #352525
+}
+
+p {
+    font-size: 1.1rem;
+    color: wheat;
+    line-height: 0.3;
+}
+
+footer {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #352525;
+    font-family: "moderustic";
+    text-align: center;
+    height: 100px;
+    padding-top: 60px;
+    margin-top: 40px;
+
+}
 
 
-#result{
+
+
+
+#result {
     display: none;
 }
 
-#formulary{
+#formulary {
     display: block;
 }

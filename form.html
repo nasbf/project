@@ -25,9 +25,9 @@
         <a id="menu" href="#"></a>
         <nav>
             <a href="index.html" id="home">Home</a>
-            <a href="" id="more"> More States</a>
+            <!-- <a href="" id="more"> More States</a> -->
             <!-- <a href="#" id="gallery">Gallery</a> -->
-            <a href="#" id="Budget">Budget</a>
+            <a href="form.html" id="Budget">Budget</a>
         </nav>
     </header>
     <div id="formulary">
@@ -36,26 +36,39 @@
         </header>
 
         <main>
-            <form onsubmit="sendInfo(event)" class="reviewForm">
-                <fieldset>
+            <form onsubmit="sendInfo(event)" class="dataForm">
+                <fieldset class="camp">
                     <label>Name *</label>
-                    <input id="userName" name="name" required>
+                    <input type="text" id="userName" name="name" required>
+                </fieldset>
+                <fieldset class="camp">
                     <label>Phone *</label>
-                    <input id="userPhone" phone="phone" required>
+                    <input type="text" id="userPhone" phone="name" required>
+                </fieldset>
+                <fieldset class="camp">
                     <label>Mail *</label>
-                    <input id="userMail" mail="mail" required>
-                    <label>Event Date *</label>
-                    <input type="number" id="eventDate" name="date" required>
+                    <input type="text" id=userMail" mail="name" required>
+                </fieldset>
+                <fieldset class="camp">
+                    <label>Month event *</label>
+                    <input type="text" id="eventDate" name="name" required>
+                </fieldset>
+
+                <fieldset class="camp">
                     <label> Number of Gests*</label>
-                    <select type="number" id="pax" name="gests" required>
+                    <select name="gests" required>
                         <option value=" " disabled selected>Choose an option </option>
                         <option value="50">50</option>
                         <option value="80">80</option>
                         <option value="100">100 </option>
                         <option value="200">200 </option>
                     </select>
+                </fieldset>
+                <fieldset>
+
                     <button type="submit">My Budget</button>
                 </fieldset>
+
 
 
         </main>
