@@ -36,47 +36,34 @@
         </header>
 
         <main>
-            <form onsubmit="sendInfo(event)" class="dataForm">
-                <fieldset class="camp">
+            <form onsubmit="sendInfo(event)" class="reviewForm">
+                <fieldset>
                     <label>Name *</label>
-                    <input type="text" id="userName" name="name" required>
-                </fieldset>
-                <fieldset class="camp">
+                    <input id="userName" name="name" required>
                     <label>Phone *</label>
-                    <input type="text" id="userPhone" phone="name" required>
-                </fieldset>
-                <fieldset class="camp">
+                    <input id="userPhone" phone="phone" required>
                     <label>Mail *</label>
-                    <input type="text" id=userMail" mail="name" required>
-                </fieldset>
-                <fieldset class="camp">
-                    <label>Month event *</label>
-                    <input type="text" id="eventDate" name="name" required>
-                </fieldset>
-
-                <fieldset class="camp">
+                    <input id="userMail" mail="mail" required>
+                    <label>Event Date *</label>
+                    <input type="number" id="eventDate" name="date" required>
                     <label> Number of Gests*</label>
-                    <select name="gests" required>
+                    <select type="number" id="pax" name="gests" required>
                         <option value=" " disabled selected>Choose an option </option>
                         <option value="50">50</option>
                         <option value="80">80</option>
                         <option value="100">100 </option>
                         <option value="200">200 </option>
                     </select>
-                </fieldset>
-                <fieldset>
-
                     <button type="submit">My Budget</button>
                 </fieldset>
-
 
 
         </main>
 
     </div>
     <div id="result">
-        <p><span class="label">Congratulations is your </span><span class="visits"></span><br><br>
-        <h1 id="title"> </h1>
+        <h2>This is an approximate budget for your wedding.</h2><br>
+        <h1 id="title">Your budget includes</h1>
         <ul>
             <li>Menu and cake</li>
             <li>Bar service</li>
@@ -91,21 +78,21 @@
         </ul>
         <fieldset>
             <div class="subtotal">
-                <label>Subtotal </label>
+                <label>Subtotal $ </label>
                 <input id="valor">
                 <label id="value"></label>
             </div>
         </fieldset>
         <fieldset>
             <div class="state">
-                <label>Country State </label>
+                <label>Country State $</label>
                 <input id="valorstate" value="3800000">
                 <label id=valueState></label>
             </div>
         </fieldset>
         <fieldset>
             <div class="state">
-                <label>TOTAL </label>
+                <label>TOTAL $</label>
                 <input id="totalevent">
                 <label id=valueTotal></label>
             </div>

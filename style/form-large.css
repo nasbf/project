@@ -18,4 +18,24 @@
         display: none;
 
     }
+    .dataForm{
+        background-color: #fed22438;
+        width: 30%;
+        margin: auto;
+    }
+    fieldset{
+        width: 90%;
+        margin-top: 40px;
+        ;
+    }
+    h2{
+        margin: 100px auto;
+        margin-bottom: 5px;
+        
+    }
+    fieldset{
+        background-color: #fcf0c271;
+        width: 40%;
+    }
+
 }

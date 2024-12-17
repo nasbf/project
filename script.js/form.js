@@ -25,7 +25,7 @@ function calculateBudget() {
         document.getElementById("valor").value = numGests * 167000;
         document.getElementById("totalevent").value = valorstate + (numGests * 167000);
 
-    } else if (numGests === 200){
+    } else if (numGests === 200) {
         document.getElementById("valor").value = numGests * 132000;
         document.getElementById("totalevent").value = valorstate + (numGests * 132000);
     }
@@ -38,12 +38,12 @@ function calculateBudget() {
 function sendInfo(event) {
     event.preventDefault();
     const formulary = document.getElementById("formulary");
-    const result = document.getElementById("result");
+    // const result1 = document.getElementById("result");
     // const totalbudget = calculateBudget();
     // const result = document.getElementById("value");
     // result.innerText = `$${totalBudget.toLocaleString()}`;
     formulary.style.display = "none";
-    result.style.display = "block";
+    result.style.display = "flex";
     calculateBudget();
 };
 

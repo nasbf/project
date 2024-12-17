@@ -87,20 +87,23 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #fed22438;
+    background-color: #fcf0c238;
     width: 80%;
     margin: auto;
     border: none;
 
 }
 
-.camp label {
+label {
     font-size: 20px;
-    color: #352525 margin-bottom: 8px;
+    color: #352525;
+    margin-bottom: 8px;
+    width: 100%;
 }
 
-.camp input[type="text"],
-.camp input[type="number"] {
+input,
+input,
+select {
     height: 40px;
     background-color: rgb(255, 255, 255);
     border: none;
@@ -108,6 +111,7 @@ fieldset {
     font-family: "merienda";
     font-size: 1.2rem;
     box-shadow: 1px 2px 3px #352525;
+    margin-top: 10px;
 
 }
 
@@ -119,7 +123,7 @@ button {
     background-color: #ffffff2d;
     width: 50%;
     height: 35px;
-    margin: auto;
+    margin: 20px auto;
     font-size: 1.2em;
     color: #352525
 }
@@ -144,13 +148,37 @@ footer {
 
 }
 
-
-
-
-
 #result {
     display: none;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
 }
+
+#result li {
+
+    font-family: "satisfy";
+    font-size: 1.9em;
+}
+
+#result label {
+    font-size: 20px;
+    color: #352525;
+    margin-bottom: 8px;
+
+
+}
+
+#result input {
+    width: 100%;
+    text-align: center;
+
+
+}
+
 
 #formulary {
     display: block;
