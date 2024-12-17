@@ -147,8 +147,8 @@ nav a:hover {
 
 #hero button {
     position: absolute;
-    top: 105%;
-    left: 110px;
+    top: 60%;
+    left: 115px;
     font-size: 1.2em;
     padding: 10px 30px;
     border-radius: 10px;
@@ -199,13 +199,13 @@ nav a:hover {
     width: 100%;
     padding: 8px;
     box-shadow: 0 0px 10px #352525;
-    
+
 
 
 }
 
 .gallery figcaption {
-    
+
     font-size: 0.8rem;
 }
 
