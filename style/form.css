@@ -87,20 +87,20 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f113cc38;
+    background-color: #ffeca177;
     width: 80%;
     margin: auto;
     border: none;
-    
+
 
 }
 
 label {
     font-size: 20px;
     color: #352525;
-    
+
     width: 100%;
-    
+
 }
 
 input,
@@ -113,7 +113,7 @@ select {
     font-family: "merienda";
     font-size: 1.2rem;
     box-shadow: 1px 2px 3px #352525;
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
 
 }
 
