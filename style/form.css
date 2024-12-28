@@ -24,6 +24,7 @@ header {
     text-decoration: none;
     position: relative;
     display: block;
+    
 
 }
 
@@ -46,11 +47,13 @@ nav {
     background-color: #ffeca1;
     list-style-type: none;
     padding: 10px;
+    
 }
 
 nav a:hover {
     background-color: #35252513;
     border-radius: 4px;
+    
 
 }
 
@@ -59,7 +62,7 @@ nav a:hover {
     font-size: 2em;
     color: #352525;
     position: absolute;
-    z-index: 2;
+    
     right: 5px;
 
 }
@@ -67,6 +70,9 @@ nav a:hover {
 .show {
     display: flex;
     flex-direction: column;
+    z-index: 2;
+    
+    
 
 }
 
